@@ -32,7 +32,7 @@ def test_search_product(setUp):
     time.sleep(1)
     driver.find_element_by_name("q").send_keys(product)
     time.sleep(1)
-    driver.find_element_by_xpath("L0Z3Pu").click()
+    driver.find_element_by_name("L0Z3Pu").click()
     time.sleep(8)
     driver.execute_script("window.scrollTo(0,window.scrollY+3500)")
     time.sleep(8)
